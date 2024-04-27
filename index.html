@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="arquivos/assets/extilos.css">
+    <title>botão</title>
+</head>
+<body>
+  <div class="container">
+    <button class="btn" onclick="playAudio();">não clique!</button>
+  </div>
+
+  <audio id="myAudio" src="arquivos/ilarilarie-xuxa-47.mp3" preload="auto" loop></audio>
+
+  <script>
+  function playAudio() { 
+    var x = document.getElementById("myAudio"); 
+    x.play(); 
+  } 
+  </script>
+</body>
+</html>

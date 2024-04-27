@@ -1,0 +1,29 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+    height: 100vh; /* Altura total da tela */
+    background-color: rgb(41, 40, 40);
+}
+
+.btn {
+    padding: 70px 50px;
+    border-radius: 100px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.3);
+    font-size: 50px;
+}
+
+.btn:hover{
+    padding: 65px 45px;
+}
