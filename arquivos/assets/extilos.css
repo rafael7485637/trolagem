@@ -25,5 +25,6 @@
 }
 
 .btn:hover{
+    transition: 0.1s ease-in-out;
     padding: 65px 45px;
 }
